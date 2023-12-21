@@ -12,7 +12,7 @@
 #include "tray_dbus.h"
 
 #define DEFAULT_CLIENT_APP_PATH "spotify"
-#define CLIENT_FIND_ATTEMPTS 5
+#define CLIENT_FIND_ATTEMPTS 10
 
 /* Gets called when the Spotify client exits. */
 static void on_child_exit(GPid pid, gint status, gpointer user_data)
